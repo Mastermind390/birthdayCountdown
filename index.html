@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Righteous&display=swap" rel="stylesheet">
+    <title>Birthday Countdown</title>
+</head>
+<body>
+   
+    <main>
+       
+        <div class="container">
+            <section>
+                <div class="image-container">
+                    <img class="image" src="Images/Rectangle 2.png" alt="">
+    
+                    <div class="header-container">
+                        <p>AS YOU ARE SO SPECIAL TO US SO ALSO THE DAY YOU WERE BORN</p>
+                        <H3>
+                            WE ARE SO HAPPY AND HONORED TO COUNTDOWN TO YOUR SPECIAL DAY WITH YOU
+                        </H3>
+                    </div>
+    
+                    <div class="lets-start-counting-container">
+                        <p>
+                            Let's start looking forward to that <b>SPECIAL DAY</b> of yours by putting it on our special countdown clock
+                        </p>
+                    </div>
+                </div>
+            </section>
+    
+            <section>
+                <div class="input-section">
+                    <h4>PLEASE ENTER YOUR DATE OF BIRTH</h4>
+                    <div class="input-outer-container">
+                        <div class="input-container">
+                            <label for="DD">DAY</label>
+                            <input type="text" placeholder="DD" maxlength="2" id="day-input" class="border">
+                            <span id="day-error">error</span>
+                        </div>
+    
+                        <div class="input-container">
+                            <label for="MM">MONTH</label>
+                            <input type="text" placeholder="MM" maxlength="2" id="month-input">
+                            <span id="month-error">error</span>
+                        </div>
+    
+                        <div class="input-container">
+                            <label for="YYYY">YEAR</label>
+                            <input type="text" placeholder="YYYY" maxlength="4" id="year-input">
+                            <span id="year-error">error</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section>
+                <div class="button-outer-container">
+                    <div class="line"></div>
+                    <div class="button-container">
+                        <button id="submit-button"><img src="Images/Vector (1).png" alt=""></button>
+                    </div>
+                </div>
+            </section>
+    
+            <section>
+                <div class="display-container">
+                    <div class="day-container">
+                        <h1 id="month-result">00</h1>
+                        <span>months</span>
+                    </div>
+    
+                    <div class="day-container">
+                        <h1 id="days-result">00</h1>
+                        <span>days</span>
+                    </div>
+    
+                    <div class="day-container">
+                        <h1 id="hours-result">00</h1>
+                        <span>hours</span>
+                    </div>
+    
+                    <div class="day-container">
+                        <h1 id="minutes-result">00</h1>
+                        <span>minutes</span>
+                    </div>
+    
+                    <div class="day-container">
+                        <h1 id="seconds-result">00</h1>
+                        <span>seconds</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+    </main>
+     <!--
+
+        font-family: 'Luckiest Guy', cursive;
+        font-family: 'Righteous', cursive;
+        -->
+  <script src="script.js"></script>
+</body>
+</html>
